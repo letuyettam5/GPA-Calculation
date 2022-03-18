@@ -1,0 +1,5 @@
+ENGL 1001	English Composition	A	3	Spring 2018
+MATH 2211	Some Algebra	C	2	Fall 2020	
+ENGR 2606	The Hard Engrineering	A	4	Summer 2020
+MATH 2211	SOme Algebra	A	2	Fall 2020
+ENGR 2606	The Hard Engrineering	B	4	Summer 2020
