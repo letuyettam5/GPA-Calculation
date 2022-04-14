@@ -1,5 +1,5 @@
 %grade=["ENGL 1001   English Composition C   3   Spring 2018"];
-grade=extractFileText("gradeex.txt");
+grade=extractFileText("REP_GPA.txt");
 eachLine = splitlines(grade);
 
 letterGrade=strings(1,eachLine.length); %defining empty list of letter grade
