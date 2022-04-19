@@ -1,7 +1,7 @@
 function [letterGrade_lab,creditHr_lab]=math_sci_lab_GPA(courseName,courseNumber,letterGrade,creditHr)
 % function math_sci_lab_GPA is used to get letter grade and credit hours of classes.
-%Input arguments: course nemr,corse numer. letter grade of course, credit hours of the course.
-% switch used to get the course classes by their nmae MATH,PHYS,CHEM.
+%Input arguments: course name,course number,letter grade of course, credit hours of the course.
+% switch is used to get the course classes by their name MATH,PHYS,CHEM.
     switch courseName
             case "MATH"     %this case used for math classes to get its letter grad and credit hours.
                 switch courseNumber
@@ -25,5 +25,5 @@ function [letterGrade_lab,creditHr_lab]=math_sci_lab_GPA(courseName,courseNumber
             letterGrade_lab="A";
             creditHr_lab=0;
 
-    end %the end of therwise
-end  %the end of switch courseName
+    end %the end of switch
+end  %the end of function
