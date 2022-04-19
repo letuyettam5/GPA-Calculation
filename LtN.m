@@ -1,5 +1,5 @@
 function num = LtN(letter)
-%function num is used to get a letter and return a number 
+%function num is used to get a letter grade and return a number grade
 %using switch this function is going to check if the letter is 'A','B','C','D'or 'E'
 num=0;
 for k=1:length(letter)
